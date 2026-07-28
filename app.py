@@ -54,7 +54,7 @@ df = pd.read_csv("hotel_bookings.csv")
 # Load Model
 # ------------------------------
 
-model = joblib.load("hotel_booking_model.pkl")
+model = joblib.load("data.pkl.gz")
 
 # ------------------------------
 # Sidebar
