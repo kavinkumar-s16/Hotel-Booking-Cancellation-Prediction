@@ -16,6 +16,119 @@ To build a Machine Learning model that can predict hotel booking cancellations u
 
 ---
 
+# Dataset
+
+Dataset used:
+
+Hotel Booking Demand Dataset
+
+The dataset contains booking information such as:
+
+- Hotel type
+- Lead time
+- Arrival details
+- Customer type
+- Deposit type
+- Previous cancellations
+- Booking changes
+- Special requests
+- Room information
+
+Target Variable:
+
+```
+is_canceled
+```
+
+Values:
+
+```
+0 - Booking Not Cancelled
+1 - Booking Cancelled
+```
+
+---
+
+# Technologies Used
+
+## Programming Language
+
+- Python
+
+## Libraries
+
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Joblib
+- Streamlit
+
+---
+
+# Machine Learning Workflow
+
+```
+Data Collection
+
+        ↓
+
+Data Exploration
+
+        ↓
+
+Data Cleaning
+
+        ↓
+
+Exploratory Data Analysis
+
+        ↓
+
+Feature Encoding
+
+        ↓
+
+Train-Test Split
+
+        ↓
+
+Model Training
+
+        ↓
+
+Model Evaluation
+
+        ↓
+
+Deployment using Streamlit
+```
+
+---
+
+# Exploratory Data Analysis
+
+Performed:
+
+- Missing value analysis
+- Statistical analysis
+- Distribution analysis
+- Correlation analysis
+- Feature visualization
+
+
+Visualization techniques used:
+
+- Histogram
+- Count Plot
+- Box Plot
+- Heatmap
+
+---
+
+# Important Features
+
 ## Hotel Type
 
 Identifies whether the booking belongs to City Hotel or Resort Hotel.
